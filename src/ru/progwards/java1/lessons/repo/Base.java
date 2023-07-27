@@ -1,5 +1,6 @@
 package ru.progwards.java1.lessons.repo;
 
+
 public class Base {
 
     public static String X_EQUALS = "x = ";
