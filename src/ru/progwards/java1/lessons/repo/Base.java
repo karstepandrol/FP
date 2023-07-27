@@ -48,8 +48,6 @@ public class Base {
         System.out.println("a + b + c = " + addition(a, addition(b, c)));
         System.out.println("a^3 = " + multiplication(a, multiplication(a, a)));
         System.out.println("a - (b + c^2) = " +  subtraction(a, addition(b, multiplication(c, c))));
-
-
     }
 
     public static void main(String args[]) {
