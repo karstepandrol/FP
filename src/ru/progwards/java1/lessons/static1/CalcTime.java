@@ -12,7 +12,7 @@ public class CalcTime {
         System.out.println("Если ехать из " + cityFrom + " в " + cityTo + " со скоростью " + speed + " км/ч, то " + distance + " км проедем за " + time + " часов.");
     }
     public static void MoscowToPiter() {
-        distance = 720;
+        distance = 712;
         speed = 80;
         cityFrom = "Москва";
         cityTo = "Питер";
