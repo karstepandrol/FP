@@ -2,13 +2,13 @@ package ru.progwards.java1.lessons.static1;
 
 public class CalcTime {
 
-    static float distance; // тип - число с плавающей точкой, расстояние
-    static float speed; // тип - число с плавающей точкой, скорость
+    static double distance; // тип - число с плавающей точкой, расстояние
+    static double speed; // тип - число с плавающей точкой, скорость
     static String cityFrom; // - тип строка, город, откуда едем
     static String cityTo; // - тип строка, город, куда едем
 
     public static void printTime() {
-        float time = distance / speed;
+        double time = distance / speed;
         System.out.println("Если ехать из " + cityFrom + " в " + cityTo + " со скоростью " + speed + " км/ч, то " + distance + " км проедем за " + time + " часов.");
     }
     public static void MoscowToPiter() {
