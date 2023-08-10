@@ -8,8 +8,9 @@ public class ReverseDigits {
         return number;
     }
     public static void main(String[] args) {
-        reverseDigits(123);
-        reverseDigits(456);
-        reverseDigits(789);
+     //   reverseDigits(123);
+     //   reverseDigits(456);
+     //   reverseDigits(789);
+        reverseDigits(910);
     }
 }
